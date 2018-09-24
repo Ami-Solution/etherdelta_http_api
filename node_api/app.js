@@ -5,7 +5,7 @@ app = require("express")();
 io = require("socket.io-client");
 
 config = {
-    socketURL: "https://socket.etherdelta.com",
+    socketURL: "http://localhost",
     port: 3000
 }
 
